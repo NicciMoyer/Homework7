@@ -4,6 +4,7 @@ function generateMarkdown(data) {
 \n
 \t ### AUTHOR: ${data.author}
 \n
+https://img.shields.io/badge/-TIME%20SAVER!-brightgreen
 ## DESCRIPTION
 ${data.description}
 \n
