@@ -2,7 +2,7 @@
 function generateMarkdown(data) {
     return `# ${data.title}
 \n
-\t ### AUTHOR: ${data.author}
+\t ### ${data.author}
 \n
 https://img.shields.io/badge/-TIME%20SAVER!-brightgreen
 ## DESCRIPTION
