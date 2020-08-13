@@ -9,7 +9,7 @@ https://img.shields.io/badge/-TIME%20SAVER!-brightgreen
 ${data.description}
 \n
 ## TABLE OF CONTENTS
-1. ${data.contents}
+${data.contents}
 \n
 ## INSTALLATION
 ${data.installation}
@@ -17,8 +17,8 @@ ${data.installation}
 ## USAGE
 ${data.usage}
 \n
-## LICENSES
-* ${data.licenses}
+## license
+- ${data.license}
 \n
 ## CONTRIBUTORS
 ${data.contributors}

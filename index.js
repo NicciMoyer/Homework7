@@ -17,12 +17,12 @@ inquirer
     {
       type: "input",
       name: "description",
-      message: "Briefly describe your project"
+      message: "Briefly describe your project:"
     },
     {
       type: "input",
       name: "contents",
-      message: "Insert your table of contents"
+      message: "Insert your table of contents:"
     },
     {
       type: "input",
@@ -35,9 +35,9 @@ inquirer
       message: "What does the user need to know to use this program?"
     },
     {
-      type: "checkbox",
-      name: "licenses",
-      message: "What licenses do you have?",
+      type: "list",
+      name: "license",
+      message: "Which license do you have?",
       choices: ["Apache License 2.0",
         "GNU General Public License v3.0",
         "MIT License",
